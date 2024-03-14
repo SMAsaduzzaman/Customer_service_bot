@@ -1,6 +1,4 @@
-# Customer_service_bot
-
-**# Customer Support Training Data Analysis
+# Customer Support Training Data Analysis
 
 ## Overview
 This repository contains the code and analysis for performing customer support training data analysis using the Customer Support Training Data available on Kaggle. The analysis aims to gain insights into customer support interactions and improve customer service strategies with the help of open-source LLM model.
