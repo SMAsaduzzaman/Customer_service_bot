@@ -34,7 +34,7 @@ For this analysis, we have chosen to use the Gemma model. Gemma has shown better
 - **High Token Count:** With a higher token count, Gemma can capture more intricate patterns and nuances in the text data, leading to improved performance and accuracy.
 - **Robustness:** Gemma's robust architecture ensures stability and reliability, even when dealing with noisy or unstructured text data.
 - **Research:** The researcher from Google Gemma dev team shows that it outperforms the Mistral and LLaMA2 [2].
-  ![Figure: Comparison between LLAMA 2, Mistral and Gemma] (img/Screenshot_5.png)
+![Figure: Comparison between LLAMA 2, Mistral, and Gemma](img/Screenshot_5.png)
 
   **Multilingual:** Gemma is also a multilingual model, capable of understanding and generating text in multiple languages. Developed by Google DeepMind, Gemma leverages advanced techniques in natural language processing (NLP) to support a wide range of languages, making it suitable for various multilingual applications.
   ![English Inpput] (img/out1.png)
