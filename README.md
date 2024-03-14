@@ -35,25 +35,30 @@ For this analysis, we have chosen to use the Gemma model. Gemma has shown better
 - **Performance:** Gemma has demonstrated superior performance in various natural language processing tasks, including text classification and sentiment analysis.
 - **High Token Count:** With a higher token count, Gemma can capture more intricate patterns and nuances in the text data, leading to improved performance and accuracy.
 - **Robustness:** Gemma's robust architecture ensures stability and reliability, even when dealing with noisy or unstructured text data.
-Research from google gemma shows that
-![Comparison between LLAMA 2 and Gemma](img/Screenshot_5.png)
+Research from google gemma dev team shows that it outperforms the Mistral and LLaMA2 .
+![Comparison between LLAMA 2, Mistral and Gemma](img/Screenshot_5.png)
+
+### Why Gemma-2b?
+- **Task Complexity:** Gemma-2b may be more suitable for the specific task at hand due to its computational efficiency and lower resource requirements compared to Gemma-7b. For tasks that do not require the immense scale and complexity offered by Gemma-7b, opting for Gemma-2b can provide sufficient performance without excessive computational costs.
+
+- **Resource Constraints**: Gemma-7b requires significantly more computational resources, including GPU memory and training time, compared to Gemma-2b. If there are limitations in available resources such as hardware infrastructure or budget constraints, choosing Gemma-2b allows for more practical implementation and experimentation.
+
+- **Model Complexity:** Gemma-7b is a larger model with more parameters and complexity compared to Gemma-2b. While Gemma-7b may offer higher performance on certain tasks, it also comes with increased computational overhead and potential challenges in fine-tuning and deployment.
+
+- **Overfitting Concerns:** For some tasks, using a smaller model like Gemma-2b may mitigate the risk of overfitting, especially when working with limited data or noisy datasets. Gemma-7b, with its larger capacity, may be more prone to overfitting in such scenarios.
+
+- **Cost-Effectiveness:** Gemma-2b may offer a more cost-effective solution for achieving acceptable performance levels on the task, considering factors such as infrastructure costs, training time, and operational expenses.
 
 ## Analysis
 The analysis involves preprocessing the text data, training the Gemma model on the labeled customer support interactions, and evaluating its performance on various metrics such as accuracy, precision, recall, and F1-score.
 
-## Comparative Analysis: LLAMA 2 vs. Gemma
-For a comprehensive comparison, a photo illustrating the performance comparison between LLAMA 2 and Gemma can be added to the repository. This comparison will provide insights into the strengths and weaknesses of each model, aiding in informed decision-making for model selection and deployment.
-
-### Performance Metrics:
-- **Accuracy:** The percentage of correctly classified customer support interactions.
-- **Precision:** The proportion of true positive predictions out of all positive predictions made by the model.
-- **Recall:** The proportion of true positive predictions out of all actual positive instances in the dataset.
-- **F1-score:** The harmonic mean of precision and recall, providing a balance between the two metrics.
-
+![Result](img/tb.png)
+![Result](img/tb1.png)
+it shows that the loss is continuously dropping so the model is performing well, although the epoch is just 100 times, it can be better with more parameter-tunining.
 ## Conclusion
 The analysis aims to provide valuable insights into customer support interactions and enhance customer service strategies using state-of-the-art natural language processing techniques. By leveraging the Gemma model and conducting a comparative analysis, we can identify the most suitable approach for addressing customer support challenges effectively.
 
 ## References:
-Pandya, K., & Holia, M. (Year not provided). "Automating Customer Service using LangChain: Building custom open-source GPT Chatbot for organizations." Birla Vishvakarma Mahavidyalaya, Gujarat, India. [Contact: 19me439@bvmengineering.ac.in, msholia@bvmengineering.ac.in]
-
+[1] Pandya, K., & Holia, M. (Year not provided). "Automating Customer Service using LangChain: Building custom open-source GPT Chatbot for organizations." Birla Vishvakarma Mahavidyalaya, Gujarat, India. [Contact: 19me439@bvmengineering.ac.in, msholia@bvmengineering.ac.in]
+[2] Reference: Gemma Team, Google DeepMind. "Gemma: Open Models Based on Gemini Research and Technology."
 **
