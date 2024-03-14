@@ -56,6 +56,9 @@ The analysis involves preprocessing the text data, training the Gemma model on t
 ![Result](img/tb.png)
 ![Result](img/tb1.png)
 it shows that the loss is continuously dropping so the model is performing well, although the epoch is just 100 times, it can be better with more parameter-tunining.
+
+## Model Deploye to the hugging face
+![Result](img/deploy.png)
 ## Conclusion
 The analysis aims to provide valuable insights into customer support interactions and enhance customer service strategies using state-of-the-art natural language processing techniques. By leveraging the Gemma model and conducting a comparative analysis, we can identify the most suitable approach for addressing customer support challenges effectively.
 
