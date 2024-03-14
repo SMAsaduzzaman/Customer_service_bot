@@ -33,8 +33,8 @@ For this analysis, we have chosen to use the Gemma model. Gemma has shown better
 - **Performance:** Gemma has demonstrated superior performance in various natural language processing tasks, including text classification and sentiment analysis.
 - **High Token Count:** With a higher token count, Gemma can capture more intricate patterns and nuances in the text data, leading to improved performance and accuracy.
 - **Robustness:** Gemma's robust architecture ensures stability and reliability, even when dealing with noisy or unstructured text data.
-- **Research:** The researcher from Google Gemma dev team shows that it outperforms the Mistral and LLaMA2.
-![Comparison between LLAMA 2, Mistral and Gemma](img/Screenshot_5.png)
+- **Research:** The researcher from Google Gemma dev team shows that it outperforms the Mistral and LLaMA2 [2].
+[Figure: Comparison between LLAMA 2, Mistral and Gemma] (img/Screenshot_5.png)
 
 ### Why Gemma-2b?
 - **Task Complexity:** Gemma-2b may be more suitable for the specific task at hand due to its computational efficiency and lower resource requirements compared to Gemma-7b. For tasks that do not require the immense scale and complexity offered by Gemma-7b, opting for Gemma-2b can provide sufficient performance without excessive computational costs.
