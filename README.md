@@ -36,9 +36,9 @@ For this analysis, we have chosen to use the Gemma model. Gemma has shown better
 - **Research:** The researcher from Google Gemma dev team shows that it outperforms the Mistral and LLaMA2 [2].
 ![Figure: Comparison between LLAMA 2, Mistral, and Gemma](img/Screenshot_5.png)
 
-  **Multilingual:** Gemma is also a multilingual model, capable of understanding and generating text in multiple languages. Developed by Google DeepMind, Gemma leverages advanced techniques in natural language processing (NLP) to support a wide range of languages, making it suitable for various multilingual applications.
-  ![English Inpput] (img/out1.png)
-  ![Bangla Input] (img/out1.png)
+  -**Multilingual:** Gemma is also a multilingual model, capable of understanding and generating text in multiple languages. Developed by Google DeepMind, Gemma leverages advanced techniques in natural language processing (NLP) to support a wide range of languages, making it suitable for various multilingual applications.
+  ![Figure: English Inpput] (img/out1.png)
+  ![Figure: Bangla Input] (img/out1.png)
 
 ### Why Gemma-2b?
 - **Task Complexity:** Gemma-2b may be more suitable for the specific task at hand due to its computational efficiency and lower resource requirements compared to Gemma-7b. For tasks that do not require the immense scale and complexity offered by Gemma-7b, opting for Gemma-2b can provide sufficient performance without excessive computational costs.
