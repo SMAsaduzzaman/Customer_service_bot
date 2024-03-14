@@ -11,7 +11,7 @@ The dataset used for this analysis is the [Customer Support Training Data](https
 - **Diverse Query Types:** The dataset covers a wide range of customer queries and requests, including order-related inquiries, cancellation requests, and problem resolutions, providing ample opportunities for system development and testing.
 - **Rich Response Variability:** With multiple response options for each query type, the dataset enables the exploration of diverse response strategies and customization approaches tailored to different customer scenarios.
 - **Practical Application:** Automated customer service systems trained on this dataset can enhance operational efficiency, improve customer satisfaction, and streamline support processes for businesses.
-- **Research shows:** The research paper introduces LangChain, a custom Large Language Model (LLM), revolutionizing customer service with responsive, context-aware, and personalized interactions, surpassing traditional techniques like FAQs. This custom service chatbot showcases superior performance within various industries, emphasizing its ability to scale and redefine the customer-company relationship, enhancing retention, value, and brand image[1]
+- **Research:** The research paper introduces LangChain, a custom Large Language Model (LLM), revolutionizing customer service with responsive, context-aware, and personalized interactions, surpassing traditional techniques like FAQs. This custom service chatbot showcases superior performance within various industries, emphasizing its ability to scale and redefine the customer-company relationship, enhancing retention, value, and brand image[1]
 
 ### Dataset Details
 - **File Format:** CSV
