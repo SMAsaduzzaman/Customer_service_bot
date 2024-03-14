@@ -61,7 +61,7 @@ it shows that the loss is continuously dropping so the model is performing well,
 ![Result](img/deploy.png)
 
 - Now the Tuned model can be used remotely by using the following code
-# Loading the Gemma Model
+# Loading the Fine-tuned Gemma Model
 
 You can load the Gemma model directly using the Hugging Face Transformers library. Here's how to do it in Python:
 
