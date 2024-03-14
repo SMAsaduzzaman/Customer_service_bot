@@ -57,10 +57,10 @@ The analysis involves preprocessing the text data, training the Gemma model on t
 ![Result](img/tb1.png)
 it shows that the loss is continuously dropping so the model is performing well, although the epoch is just 100 times, it can be better with more parameter-tunining.
 
-## Model Deploye to the hugging face
+## Fine-tuned Model Deploy to the hugging face
 ![Result](img/deploy.png)
 
-- Now the Tuned model can be used remotely by the following code
+- Now the Tuned model can be used remotely by using the following code
 # Loading the Gemma Model
 
 You can load the Gemma model directly using the Hugging Face Transformers library. Here's how to do it in Python:
@@ -72,6 +72,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("smasaduzzaman/Tuned_gemma_for_customer_service_bot")
 model = AutoModelForCausalLM.from_pretrained("smasaduzzaman/Tuned_gemma_for_customer_service_bot")
 ```
+here is some example
+![Result](img/exmple.png)
 ## Conclusion
 The analysis aims to provide valuable insights into customer support interactions and enhance customer service strategies using state-of-the-art natural language processing techniques. By leveraging the Gemma model and conducting a comparative analysis, we can identify the most suitable approach for addressing customer support challenges effectively.
 
