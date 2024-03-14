@@ -73,7 +73,7 @@ tokenizer = AutoTokenizer.from_pretrained("smasaduzzaman/Tuned_gemma_for_custome
 model = AutoModelForCausalLM.from_pretrained("smasaduzzaman/Tuned_gemma_for_customer_service_bot")
 ```
 here is some example
-![Result](img/exmple.png)
+![Example](img/example.png)
 ## Conclusion
 The analysis aims to provide valuable insights into customer support interactions and enhance customer service strategies using state-of-the-art natural language processing techniques. By leveraging the Gemma model and conducting a comparative analysis, we can identify the most suitable approach for addressing customer support challenges effectively.
 
