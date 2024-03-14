@@ -35,7 +35,7 @@ For this analysis, we have chosen to use the Gemma model. Gemma has shown better
 - **Performance:** Gemma has demonstrated superior performance in various natural language processing tasks, including text classification and sentiment analysis.
 - **High Token Count:** With a higher token count, Gemma can capture more intricate patterns and nuances in the text data, leading to improved performance and accuracy.
 - **Robustness:** Gemma's robust architecture ensures stability and reliability, even when dealing with noisy or unstructured text data.
-Research from google gemma dev team shows that it outperforms the Mistral and LLaMA2 .
+- **Research:** The researcher from Google Gemma dev team shows that it outperforms the Mistral and LLaMA2.
 ![Comparison between LLAMA 2, Mistral and Gemma](img/Screenshot_5.png)
 
 ### Why Gemma-2b?
@@ -59,6 +59,7 @@ it shows that the loss is continuously dropping so the model is performing well,
 The analysis aims to provide valuable insights into customer support interactions and enhance customer service strategies using state-of-the-art natural language processing techniques. By leveraging the Gemma model and conducting a comparative analysis, we can identify the most suitable approach for addressing customer support challenges effectively.
 
 ## References:
-[1] Pandya, K., & Holia, M. (Year not provided). "Automating Customer Service using LangChain: Building custom open-source GPT Chatbot for organizations." Birla Vishvakarma Mahavidyalaya, Gujarat, India. [Contact: 19me439@bvmengineering.ac.in, msholia@bvmengineering.ac.in]
+[1] Pandya, K., & Holia, M. (Year not provided). "Automating Customer Service using LangChain: Building custom open-source GPT Chatbot for organizations." Birla Vishvakarma Mahavidyalaya, Gujarat, India. [Contact: 19me439@bvmengineering.ac.in,msholia@bvmengineering.ac.in]
+
 [2] Reference: Gemma Team, Google DeepMind. "Gemma: Open Models Based on Gemini Research and Technology."
 **
