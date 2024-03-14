@@ -60,7 +60,7 @@ it shows that the loss is continuously dropping so the model is performing well,
 ## Model Deploye to the hugging face
 ![Result](img/deploy.png)
 
-- Now the Tuned model can be used remotely
+- Now the Tuned model can be used remotely by the following code
 # Loading the Gemma Model
 
 You can load the Gemma model directly using the Hugging Face Transformers library. Here's how to do it in Python:
@@ -71,7 +71,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # Load the tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained("smasaduzzaman/Tuned_gemma_for_customer_service_bot")
 model = AutoModelForCausalLM.from_pretrained("smasaduzzaman/Tuned_gemma_for_customer_service_bot")
-
+```
 ## Conclusion
 The analysis aims to provide valuable insights into customer support interactions and enhance customer service strategies using state-of-the-art natural language processing techniques. By leveraging the Gemma model and conducting a comparative analysis, we can identify the most suitable approach for addressing customer support challenges effectively.
 
